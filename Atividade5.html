@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade5 S1-24</title>
+    
+</head>
+<body>
+    <div>
+        <form>
+            <label for="Nome">Nome</label><br>
+            <input type="text" id="Nome" placeholder="Digite seu nome aqui..." required="true"><br>
+
+            <label for="seuEmail">Email</label><br>
+            <input type="email" id="seuEmail" placeholder="Digite seu email aqui..." required="true"><br>
+
+            <label for="descrever">Descrição</label><br>
+            <textarea id="descrever" placeholder="Fale mais sobre você aqui..." required="true" rows="5" cols="22"></textarea><br>
+
+            <label for="modulosDoCurso">Módulo</label><br>
+            <select id="modulosDoCurso" name="Modulo">
+                <option value="">Escolher módulo</option>
+                <option value="M1">M1</option>
+                <option value="M2">M2</option>
+                <option value="M3">M3</option>
+            </select><br>
+
+            <label for="suaSenha">Senha</label><br>
+            <input type="password" id="suaSenha" placeholder="Digite sua senha aqui..." required="true"><br>
+
+            <label for="suaSenhaNovamente">Confirmar senha</label><br>
+            <input type="password" id="suaSenhaNovamente" placeholder="Digite sua senha novamente aqui..." required="true"><br>
+        
+            <p>Deseja receber novidades em seu e-mail?</p><br>
+            <label for="Sim">Sim</label>
+            <input type="radio" id="Sim" name="desejaReceber" value="Sim" required="true">  
+            <label for="Nao">Não</label>
+            <input type="radio" id="Nao" name="desejaReceber" value="Nao" required="true">
+            <br>    
+            <button type="submit">Cadastrar</button>    
+        </form>
+    </div>    
+    
+</body>
+</html>
